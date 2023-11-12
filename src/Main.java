@@ -9,6 +9,7 @@ public class Main {
         System.out.println("Автор:"+ firstAuthor.getLastName() + " " + firstAuthor.getLastName());
         System.out.println("Год издания:"+ firstBook.getYearBook());
 
+        System.out.println( );
 
         System.out.println("Книга2");
         System.out.println("Название:" +secondBook.getBookTitle());
@@ -20,7 +21,8 @@ public class Main {
         firstBook.setYearBook(2000);
         System.out.println(firstBook.getYearBook());
 
-
+        System.out.println(firstBook);
+        System.out.println(secondBook);
 
 
 
